@@ -4,15 +4,26 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
 }
 header, nav, section, aside, footer {
     background: #ebebeb;
 }
-article {
+.article {
     color: #ebebeb;
     background: #777;
+    position: relative;
 }
-h1, p {
+h2, .divp {
     color: #777;
     background: #ebebeb;
+}
+footer, nav, header, .article {
+    position: relative;
+    padding: 35px 0px 35px 0px;
+    margin: 10px 0px 10px 0px;
+}
+section, aside {
+    padding: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
 }

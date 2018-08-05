@@ -5,25 +5,44 @@ body {
     width: 960px;
     font-size: 18px;
     text-align: center;
+    margin: 0 auto;
+    width: 960px;
 }
 header, nav, section, aside, footer {
     background: #ebebeb;
 }
-.article {
-    color: #ebebeb;
-    background: #777;
-    position: relative;
-}
 h2, .divp {
     color: #777;
     background: #ebebeb;
+    margin: 10px;
+    padding: 10px;
+    width: auto;
 }
 footer, nav, header, .article {
-    position: relative;
     padding: 35px 0px 35px 0px;
     margin: 10px 0px 10px 0px;
 }
 section, aside {
     padding: 20px 0px 20px 0px;
     margin: 20px 0px 20px 0px;
+    position: relative;
+    width: 495px;
+}
+.article {
+    color: #ebebeb;
+    background: #777;
+    margin: 40px;
+    padding: 10px 0px 20px 0px;
+    width: auto;
+    position: relative;
+}
+footer {
+    position: relative;
+    bottom: 0 px;
+}
+.wrapper {
+    margin: 0 auto;
+}
+aside {
+    /* I still need a working way to shift this to lay beside the section */
 }

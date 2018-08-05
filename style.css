@@ -44,5 +44,9 @@ footer {
     margin: 0 auto;
 }
 aside {
-    /* I still need a working way to shift this to lay beside the section */
+    position: absolute;
+    right: 195px;
+    top: 201px;
+    height: 274.6px;
+    width: 450px;
 }
